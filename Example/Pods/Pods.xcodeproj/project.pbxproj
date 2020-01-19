@@ -7,16 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DFF34C1DFB938F43AA1A97B1CDE2591 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CEE56FB7827956A26E04D3D76AA98 /* ReplaceMe.m */; };
+		00B31F91E797EF9197C9DA6AAF096DCD /* UIView+UIViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D909FAE470D6A27BDCE9C6F1618132A /* UIView+UIViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0652A236D98EDE23B99614BCE890CA34 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB31D71EBDB8E65923D68F41AF14FC5 /* UIView+Extension.m */; };
+		1E1EDB77B3AAB6CCA33095A0C16515D7 /* UIDevice+Identifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 4604D698DCD59913B43A9C82508DBAEC /* UIDevice+Identifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25CE2744C89410507AC7A7457C834EF8 /* NSString+Desensitization.m in Sources */ = {isa = PBXBuildFile; fileRef = 584F5B0B9C16B301C65CD2371A35854E /* NSString+Desensitization.m */; };
+		2A29CD396C8AEDEB3B9745BABC7C4B87 /* UIDevice+Identifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 900CBA494965F6868804F88A22733C0C /* UIDevice+Identifier.m */; };
+		2C257B2B0E20EA96F19C325D737E0612 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = EC42A7E9752D5D210CD368CAF08CFE5D /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B00D4315504B609549C01090CC4A13C /* Pods-OCCustomKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC66C4BC5855967AE25A615FD7E30C /* Pods-OCCustomKit_Tests-dummy.m */; };
+		3B9B86886FB0149EE7FDC6B8F2F954DF /* UIViewController+SafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FD604672178C55A5F1191C060D736 /* UIViewController+SafeArea.m */; };
+		3C2C15F23748EE778CE81C25CD336A12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		3CC3E4AAC8D91060ED0C8492572F6721 /* NSString+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD92A6FB8FDEEA9DB3E0B5899CC8B4A /* NSString+Regular.m */; };
 		46D25FEBD69BF3018C3784599F2DC97B /* Pods-OCCustomKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B073FC133C137AA594B35A1FCE92FD /* Pods-OCCustomKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		553E158947A64AB496ECFD8C423156B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		5CA737A1429D719A86E72CE5AE5C7D6D /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2934F46A9906BE7A30B50F33B2CC4F6 /* UITextView+Placeholder.m */; };
+		60DB5F35B65C50B1C7415D7A3BD646B6 /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA1F7EA5F4D8F7157F35CD315F2C4D4 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72BE8AABF80EEFA3A113A2E521922723 /* Pods-OCCustomKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFD4F3A7A9706638851768132723898 /* Pods-OCCustomKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F3D91DC8A07D4CD3668BD8B788C372A /* OCCustomKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90158ECBE8A6042F8F346B700D524B5A /* OCCustomKit-dummy.m */; };
+		745AF16BE9D1B8DDEACB8D70E5F3EA23 /* UIViewController+SafeArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AAA0B4EDC62765D8D473970F23BFDDE /* UIViewController+SafeArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80DCF2DEF2E461BE2F49106B89C6AEF4 /* CALayer+IBKeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F1D561DB86585D19530A78AFD01965 /* CALayer+IBKeyPath.m */; };
+		83CBFF35850854E9639367A096A3E479 /* NSString+Desensitization.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6669737ADFC7B19E93DEF65D3A8D95 /* NSString+Desensitization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C6EE2D6DD677D9A5BF4273005B70CCD /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D74DF9A291E75E77EE462DF9688B7 /* UIColor+Extension.m */; };
+		9CA1F06519FCF481DDF2286B6CDE7E62 /* OCCustomKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C88D23B1914A14C42FB8112FFF21C6 /* OCCustomKit-dummy.m */; };
+		9D82849F5C593643F03F253B33C4DE3D /* OCCustomKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6D2B43C37ED70284D45C61F788B3A8B /* OCCustomKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4858D4E573C20420F2638468E932424 /* Pods-OCCustomKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1536BF679C52CCEFA8A313679CD2016E /* Pods-OCCustomKit_Example-dummy.m */; };
-		BD461FA641A8ABF7E00EC85757737123 /* OCCustomKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C77225FE4851904E6C66EF11D1304C /* OCCustomKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D084D113141FDF923F63EAC231228165 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		D902F4B4AEC68072A0EF06FE3CD6558F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		A5D029280E3F90B27AC0C00C050C3017 /* NSString+Regular.h in Headers */ = {isa = PBXBuildFile; fileRef = C80C908245E7354BC951936C9A2BA4A5 /* NSString+Regular.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A63894CE6EDC6200FB1CA88A71D6E0E2 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A715DB4C3009F384F38912CB880955E /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACB8C7AA0CB0DF9AD1EC549E7BD99086 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7336EE8B0BB1F74B9C38D64BA35A23 /* NSString+Extension.m */; };
+		B3CCD051809A617B3598FB820D380ECA /* UIColor+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBB6ADC0F2552FFC85DA6C0B99D6910 /* UIColor+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6B562840DCFF37CA35FE15D67DCAD76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		BA576C30E73ED28117771A64F0806856 /* CALayer+IBKeyPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6E90635621D8198AE3D1D8F790D8E0 /* CALayer+IBKeyPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C30A4FB1243C629165D8707313785FCD /* UIView+UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698EDF89BB752AB5EA6EB7DDBE8969EE /* UIView+UIViewController.m */; };
+		EA1D3421F1045D51102DF27175B495CF /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3270EB3D771581438A63B136B5A84765 /* UIFont+Extension.m */; };
+		FB6610AF8F517E2FB9D80090243080EC /* UIFont+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F81F862DF346EBD5F2B7460E4F692CA /* UIFont+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF1112F014C26A3C2DF1CD068E2D9109 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,48 +59,69 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14350481B80901A546D08B48319AC40D /* OCCustomKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCCustomKit.modulemap; sourceTree = "<group>"; };
 		14751BA458E61E865291CA3D2A93D32B /* Pods-OCCustomKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCCustomKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1536BF679C52CCEFA8A313679CD2016E /* Pods-OCCustomKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCCustomKit_Example-dummy.m"; sourceTree = "<group>"; };
+		1C2FD604672178C55A5F1191C060D736 /* UIViewController+SafeArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SafeArea.m"; path = "OCCustomKit/Classes/Lib/Categories/UIViewController+SafeArea.m"; sourceTree = "<group>"; };
+		1D701D1A04669104D70D1E12543F09CA /* OCCustomKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCCustomKit.xcconfig; sourceTree = "<group>"; };
 		2173577A8A49508479873DB45A9080AC /* Pods-OCCustomKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCCustomKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A715DB4C3009F384F38912CB880955E /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "OCCustomKit/Classes/Lib/Categories/UIView+Extension.h"; sourceTree = "<group>"; };
+		2AAA0B4EDC62765D8D473970F23BFDDE /* UIViewController+SafeArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SafeArea.h"; path = "OCCustomKit/Classes/Lib/Categories/UIViewController+SafeArea.h"; sourceTree = "<group>"; };
+		2CA1F7EA5F4D8F7157F35CD315F2C4D4 /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "OCCustomKit/Classes/Lib/Categories/NSString+Extension.h"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3270EB3D771581438A63B136B5A84765 /* UIFont+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+Extension.m"; path = "OCCustomKit/Classes/Lib/Categories/UIFont+Extension.m"; sourceTree = "<group>"; };
 		3A02E5B288ED1430762333DFA39D2D98 /* Pods-OCCustomKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCCustomKit_Example.modulemap"; sourceTree = "<group>"; };
 		42B073FC133C137AA594B35A1FCE92FD /* Pods-OCCustomKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCCustomKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		47E296B44BA327C0C6E274CEB5221EA4 /* OCCustomKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCCustomKit-Info.plist"; sourceTree = "<group>"; };
-		4D3CEE56FB7827956A26E04D3D76AA98 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OCCustomKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		4604D698DCD59913B43A9C82508DBAEC /* UIDevice+Identifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Identifier.h"; path = "OCCustomKit/Classes/Lib/Categories/UIDevice+Identifier.h"; sourceTree = "<group>"; };
+		46F1D561DB86585D19530A78AFD01965 /* CALayer+IBKeyPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+IBKeyPath.m"; path = "OCCustomKit/Classes/Lib/Categories/CALayer+IBKeyPath.m"; sourceTree = "<group>"; };
+		4AD92A6FB8FDEEA9DB3E0B5899CC8B4A /* NSString+Regular.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Regular.m"; path = "OCCustomKit/Classes/Lib/Categories/NSString+Regular.m"; sourceTree = "<group>"; };
+		4D909FAE470D6A27BDCE9C6F1618132A /* UIView+UIViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+UIViewController.h"; path = "OCCustomKit/Classes/Lib/Categories/UIView+UIViewController.h"; sourceTree = "<group>"; };
+		584F5B0B9C16B301C65CD2371A35854E /* NSString+Desensitization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Desensitization.m"; path = "OCCustomKit/Classes/Lib/Categories/NSString+Desensitization.m"; sourceTree = "<group>"; };
+		698EDF89BB752AB5EA6EB7DDBE8969EE /* UIView+UIViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+UIViewController.m"; path = "OCCustomKit/Classes/Lib/Categories/UIView+UIViewController.m"; sourceTree = "<group>"; };
 		6BAD31B14A2314E14B22F7AA2596CB91 /* Pods-OCCustomKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCCustomKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6FFD4F3A7A9706638851768132723898 /* Pods-OCCustomKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCCustomKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		748ABD9501F44C62FB2C90DD75401299 /* Pods-OCCustomKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCCustomKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74AD25D8306E803C20E28998336EFF54 /* OCCustomKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCCustomKit.modulemap; sourceTree = "<group>"; };
 		7511EE282378CD26553D498EF955BBE7 /* OCCustomKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCCustomKit.framework; path = OCCustomKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		78A33F201DC9FAADF5FBB1D08DD7128D /* OCCustomKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCCustomKit-prefix.pch"; sourceTree = "<group>"; };
+		7E6E90635621D8198AE3D1D8F790D8E0 /* CALayer+IBKeyPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+IBKeyPath.h"; path = "OCCustomKit/Classes/Lib/Categories/CALayer+IBKeyPath.h"; sourceTree = "<group>"; };
+		7F81F862DF346EBD5F2B7460E4F692CA /* UIFont+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+Extension.h"; path = "OCCustomKit/Classes/Lib/Categories/UIFont+Extension.h"; sourceTree = "<group>"; };
+		853D74DF9A291E75E77EE462DF9688B7 /* UIColor+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extension.m"; path = "OCCustomKit/Classes/Lib/Categories/UIColor+Extension.m"; sourceTree = "<group>"; };
 		8D1863A479E58EF34D732C579D5377E3 /* Pods_OCCustomKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCCustomKit_Tests.framework; path = "Pods-OCCustomKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EAC66C4BC5855967AE25A615FD7E30C /* Pods-OCCustomKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCCustomKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		8F8E6C2596E14D1522E4856AD5BBB7AA /* Pods-OCCustomKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCCustomKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		90158ECBE8A6042F8F346B700D524B5A /* OCCustomKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCCustomKit-dummy.m"; sourceTree = "<group>"; };
+		900CBA494965F6868804F88A22733C0C /* UIDevice+Identifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Identifier.m"; path = "OCCustomKit/Classes/Lib/Categories/UIDevice+Identifier.m"; sourceTree = "<group>"; };
 		90FA06A725CCC8D0196E67B946C06D60 /* Pods-OCCustomKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCCustomKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9AB31D71EBDB8E65923D68F41AF14FC5 /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "OCCustomKit/Classes/Lib/Categories/UIView+Extension.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6C77225FE4851904E6C66EF11D1304C /* OCCustomKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCCustomKit-umbrella.h"; sourceTree = "<group>"; };
 		A75FB8C2F8F9D5B089A072EC2E7EB94D /* Pods-OCCustomKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCCustomKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B0D396FFE15270F15B28AEE8913E4CC0 /* Pods-OCCustomKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCCustomKit_Tests.modulemap"; sourceTree = "<group>"; };
 		B9A6244902FA4AC08CF663F101B57A0A /* Pods-OCCustomKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCCustomKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BEB6BD0CEAA2F01B8224189473861289 /* Pods_OCCustomKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCCustomKit_Example.framework; path = "Pods-OCCustomKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC04F165100A1638E1D2C1FA5A94EC66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BF6669737ADFC7B19E93DEF65D3A8D95 /* NSString+Desensitization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Desensitization.h"; path = "OCCustomKit/Classes/Lib/Categories/NSString+Desensitization.h"; sourceTree = "<group>"; };
+		C80C908245E7354BC951936C9A2BA4A5 /* NSString+Regular.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Regular.h"; path = "OCCustomKit/Classes/Lib/Categories/NSString+Regular.h"; sourceTree = "<group>"; };
+		C8629AC40CCB2B74996A4F82E072B24C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E2934F46A9906BE7A30B50F33B2CC4F6 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "OCCustomKit/Classes/Lib/Categories/UITextView+Placeholder.m"; sourceTree = "<group>"; };
 		E4F2E16EC4B5BEB86B88F6EC8F7AF21B /* Pods-OCCustomKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCCustomKit_Example-Info.plist"; sourceTree = "<group>"; };
-		E520BAF87C4E49EB77D3233268565CF1 /* OCCustomKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OCCustomKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E9C88D23B1914A14C42FB8112FFF21C6 /* OCCustomKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCCustomKit-dummy.m"; sourceTree = "<group>"; };
+		EC42A7E9752D5D210CD368CAF08CFE5D /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "OCCustomKit/Classes/Lib/Categories/UITextView+Placeholder.h"; sourceTree = "<group>"; };
 		EE00F0AED88186011242664EDCAC0027 /* Pods-OCCustomKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCCustomKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FC2A566DE76053DCE2E5F65D2C236E6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FF1D5EF71962A4DF9DE4B0BDDABB0CDF /* OCCustomKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCCustomKit.xcconfig; sourceTree = "<group>"; };
+		EEBB6ADC0F2552FFC85DA6C0B99D6910 /* UIColor+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extension.h"; path = "OCCustomKit/Classes/Lib/Categories/UIColor+Extension.h"; sourceTree = "<group>"; };
+		F25447049385FFCC081E563D502EE90D /* OCCustomKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCCustomKit-Info.plist"; sourceTree = "<group>"; };
+		F4C69B14A99D937ADF034E870D6EDF8E /* OCCustomKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCCustomKit-prefix.pch"; sourceTree = "<group>"; };
+		F6D2B43C37ED70284D45C61F788B3A8B /* OCCustomKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCCustomKit-umbrella.h"; sourceTree = "<group>"; };
+		F96CD624ACF89C2BF4901723005F3C4C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FC7336EE8B0BB1F74B9C38D64BA35A23 /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "OCCustomKit/Classes/Lib/Categories/NSString+Extension.m"; sourceTree = "<group>"; };
+		FCD244DEA1F834EE1A84D41BCE2CE664 /* OCCustomKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OCCustomKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FF28597D595474AF8370B42A7D9F29E0 /* Pods-OCCustomKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCCustomKit_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29B8CFE4D28CBB9212A02972161A36BD /* Frameworks */ = {
+		34175267D9A6DED29906118991B9337A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D084D113141FDF923F63EAC231228165 /* Foundation.framework in Frameworks */,
-				D902F4B4AEC68072A0EF06FE3CD6558F /* UIKit.framework in Frameworks */,
+				3C2C15F23748EE778CE81C25CD336A12 /* Foundation.framework in Frameworks */,
+				B6B562840DCFF37CA35FE15D67DCAD76 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,17 +144,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10E298975AFEC29359FFD4251EF75335 /* OCCustomKit */ = {
-			isa = PBXGroup;
-			children = (
-				4D3CEE56FB7827956A26E04D3D76AA98 /* ReplaceMe.m */,
-				A0F1222B227BA646F73B1260FC64FB63 /* Pod */,
-				FF0E2161A62F3013A268E9959E02CE73 /* Support Files */,
-			);
-			name = OCCustomKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +178,28 @@
 			path = "Target Support Files/Pods-OCCustomKit_Tests";
 			sourceTree = "<group>";
 		};
+		3183555DF0840F84FB34F39B6719F8BC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E62DF2965748264FB5E5641CD9C02FCC /* OCCustomKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		44C0CB337E53A44440D68F369C815EDC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74AD25D8306E803C20E28998336EFF54 /* OCCustomKit.modulemap */,
+				1D701D1A04669104D70D1E12543F09CA /* OCCustomKit.xcconfig */,
+				E9C88D23B1914A14C42FB8112FFF21C6 /* OCCustomKit-dummy.m */,
+				F25447049385FFCC081E563D502EE90D /* OCCustomKit-Info.plist */,
+				F4C69B14A99D937ADF034E870D6EDF8E /* OCCustomKit-prefix.pch */,
+				F6D2B43C37ED70284D45C61F788B3A8B /* OCCustomKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OCCustomKit";
+			sourceTree = "<group>";
+		};
 		4DBDF613B018A30F1637AAC392C2D4A2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,29 +226,21 @@
 			path = "Target Support Files/Pods-OCCustomKit_Example";
 			sourceTree = "<group>";
 		};
-		A0F1222B227BA646F73B1260FC64FB63 /* Pod */ = {
+		BB3396DE04B87A846ACBC61F44BA367C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FC2A566DE76053DCE2E5F65D2C236E6A /* LICENSE */,
-				E520BAF87C4E49EB77D3233268565CF1 /* OCCustomKit.podspec */,
-				CC04F165100A1638E1D2C1FA5A94EC66 /* README.md */,
+				F96CD624ACF89C2BF4901723005F3C4C /* LICENSE */,
+				FCD244DEA1F834EE1A84D41BCE2CE664 /* OCCustomKit.podspec */,
+				C8629AC40CCB2B74996A4F82E072B24C /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		A4BC06B9802FE59D804E1AC201A7600F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				10E298975AFEC29359FFD4251EF75335 /* OCCustomKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A4BC06B9802FE59D804E1AC201A7600F /* Development Pods */,
+				3183555DF0840F84FB34F39B6719F8BC /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				1A327D600587D5FB66BF5F566488A6F5 /* Products */,
 				4DBDF613B018A30F1637AAC392C2D4A2 /* Targets Support Files */,
@@ -211,18 +256,36 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FF0E2161A62F3013A268E9959E02CE73 /* Support Files */ = {
+		E62DF2965748264FB5E5641CD9C02FCC /* OCCustomKit */ = {
 			isa = PBXGroup;
 			children = (
-				14350481B80901A546D08B48319AC40D /* OCCustomKit.modulemap */,
-				FF1D5EF71962A4DF9DE4B0BDDABB0CDF /* OCCustomKit.xcconfig */,
-				90158ECBE8A6042F8F346B700D524B5A /* OCCustomKit-dummy.m */,
-				47E296B44BA327C0C6E274CEB5221EA4 /* OCCustomKit-Info.plist */,
-				78A33F201DC9FAADF5FBB1D08DD7128D /* OCCustomKit-prefix.pch */,
-				A6C77225FE4851904E6C66EF11D1304C /* OCCustomKit-umbrella.h */,
+				7E6E90635621D8198AE3D1D8F790D8E0 /* CALayer+IBKeyPath.h */,
+				46F1D561DB86585D19530A78AFD01965 /* CALayer+IBKeyPath.m */,
+				BF6669737ADFC7B19E93DEF65D3A8D95 /* NSString+Desensitization.h */,
+				584F5B0B9C16B301C65CD2371A35854E /* NSString+Desensitization.m */,
+				2CA1F7EA5F4D8F7157F35CD315F2C4D4 /* NSString+Extension.h */,
+				FC7336EE8B0BB1F74B9C38D64BA35A23 /* NSString+Extension.m */,
+				C80C908245E7354BC951936C9A2BA4A5 /* NSString+Regular.h */,
+				4AD92A6FB8FDEEA9DB3E0B5899CC8B4A /* NSString+Regular.m */,
+				EEBB6ADC0F2552FFC85DA6C0B99D6910 /* UIColor+Extension.h */,
+				853D74DF9A291E75E77EE462DF9688B7 /* UIColor+Extension.m */,
+				4604D698DCD59913B43A9C82508DBAEC /* UIDevice+Identifier.h */,
+				900CBA494965F6868804F88A22733C0C /* UIDevice+Identifier.m */,
+				7F81F862DF346EBD5F2B7460E4F692CA /* UIFont+Extension.h */,
+				3270EB3D771581438A63B136B5A84765 /* UIFont+Extension.m */,
+				EC42A7E9752D5D210CD368CAF08CFE5D /* UITextView+Placeholder.h */,
+				E2934F46A9906BE7A30B50F33B2CC4F6 /* UITextView+Placeholder.m */,
+				2A715DB4C3009F384F38912CB880955E /* UIView+Extension.h */,
+				9AB31D71EBDB8E65923D68F41AF14FC5 /* UIView+Extension.m */,
+				4D909FAE470D6A27BDCE9C6F1618132A /* UIView+UIViewController.h */,
+				698EDF89BB752AB5EA6EB7DDBE8969EE /* UIView+UIViewController.m */,
+				2AAA0B4EDC62765D8D473970F23BFDDE /* UIViewController+SafeArea.h */,
+				1C2FD604672178C55A5F1191C060D736 /* UIViewController+SafeArea.m */,
+				BB3396DE04B87A846ACBC61F44BA367C /* Pod */,
+				44C0CB337E53A44440D68F369C815EDC /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OCCustomKit";
+			name = OCCustomKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,11 +299,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AB525715B61FFF97AD2BB473690CA96 /* Headers */ = {
+		950ABA03EA0E71ACAA7CBCF66A8E4676 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD461FA641A8ABF7E00EC85757737123 /* OCCustomKit-umbrella.h in Headers */,
+				BA576C30E73ED28117771A64F0806856 /* CALayer+IBKeyPath.h in Headers */,
+				83CBFF35850854E9639367A096A3E479 /* NSString+Desensitization.h in Headers */,
+				60DB5F35B65C50B1C7415D7A3BD646B6 /* NSString+Extension.h in Headers */,
+				A5D029280E3F90B27AC0C00C050C3017 /* NSString+Regular.h in Headers */,
+				9D82849F5C593643F03F253B33C4DE3D /* OCCustomKit-umbrella.h in Headers */,
+				B3CCD051809A617B3598FB820D380ECA /* UIColor+Extension.h in Headers */,
+				1E1EDB77B3AAB6CCA33095A0C16515D7 /* UIDevice+Identifier.h in Headers */,
+				FB6610AF8F517E2FB9D80090243080EC /* UIFont+Extension.h in Headers */,
+				2C257B2B0E20EA96F19C325D737E0612 /* UITextView+Placeholder.h in Headers */,
+				A63894CE6EDC6200FB1CA88A71D6E0E2 /* UIView+Extension.h in Headers */,
+				00B31F91E797EF9197C9DA6AAF096DCD /* UIView+UIViewController.h in Headers */,
+				745AF16BE9D1B8DDEACB8D70E5F3EA23 /* UIViewController+SafeArea.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,12 +350,12 @@
 		};
 		AA32242EF076B69F983DAF8BDB6CD8BF /* OCCustomKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E276E3FA8E027184BDD377061E34110 /* Build configuration list for PBXNativeTarget "OCCustomKit" */;
+			buildConfigurationList = EA35BAE857B1D64C7D85B344EA23BC4A /* Build configuration list for PBXNativeTarget "OCCustomKit" */;
 			buildPhases = (
-				6AB525715B61FFF97AD2BB473690CA96 /* Headers */,
-				17110607061261EF1F33A13AA4E5D77D /* Sources */,
-				29B8CFE4D28CBB9212A02972161A36BD /* Frameworks */,
-				3FD199167D254D5201120A97E6ED980A /* Resources */,
+				950ABA03EA0E71ACAA7CBCF66A8E4676 /* Headers */,
+				62579BD7532E63A42D4EEB9EDDE064C6 /* Sources */,
+				34175267D9A6DED29906118991B9337A /* Frameworks */,
+				2F5B27A91B9DE134C6F19A69134208F7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -347,7 +421,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FD199167D254D5201120A97E6ED980A /* Resources */ = {
+		2F5B27A91B9DE134C6F19A69134208F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,12 +438,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		17110607061261EF1F33A13AA4E5D77D /* Sources */ = {
+		62579BD7532E63A42D4EEB9EDDE064C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F3D91DC8A07D4CD3668BD8B788C372A /* OCCustomKit-dummy.m in Sources */,
-				2DFF34C1DFB938F43AA1A97B1CDE2591 /* ReplaceMe.m in Sources */,
+				80DCF2DEF2E461BE2F49106B89C6AEF4 /* CALayer+IBKeyPath.m in Sources */,
+				25CE2744C89410507AC7A7457C834EF8 /* NSString+Desensitization.m in Sources */,
+				ACB8C7AA0CB0DF9AD1EC549E7BD99086 /* NSString+Extension.m in Sources */,
+				3CC3E4AAC8D91060ED0C8492572F6721 /* NSString+Regular.m in Sources */,
+				9CA1F06519FCF481DDF2286B6CDE7E62 /* OCCustomKit-dummy.m in Sources */,
+				8C6EE2D6DD677D9A5BF4273005B70CCD /* UIColor+Extension.m in Sources */,
+				2A29CD396C8AEDEB3B9745BABC7C4B87 /* UIDevice+Identifier.m in Sources */,
+				EA1D3421F1045D51102DF27175B495CF /* UIFont+Extension.m in Sources */,
+				5CA737A1429D719A86E72CE5AE5C7D6D /* UITextView+Placeholder.m in Sources */,
+				0652A236D98EDE23B99614BCE890CA34 /* UIView+Extension.m in Sources */,
+				C30A4FB1243C629165D8707313785FCD /* UIView+UIViewController.m in Sources */,
+				3B9B86886FB0149EE7FDC6B8F2F954DF /* UIViewController+SafeArea.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +491,39 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		14C2E8D3050E24538DF3AB8843A152A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D701D1A04669104D70D1E12543F09CA /* OCCustomKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OCCustomKit/OCCustomKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCCustomKit/OCCustomKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OCCustomKit/OCCustomKit.modulemap";
+				PRODUCT_MODULE_NAME = OCCustomKit;
+				PRODUCT_NAME = OCCustomKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -539,9 +656,9 @@
 			};
 			name = Debug;
 		};
-		6CFFB302DCC29AB3D816321797502AE7 /* Release */ = {
+		2B0063CCECF98C86EFC20089B5DF5AD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF1D5EF71962A4DF9DE4B0BDDABB0CDF /* OCCustomKit.xcconfig */;
+			baseConfigurationReference = 1D701D1A04669104D70D1E12543F09CA /* OCCustomKit.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -566,11 +683,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		9212AC83F03D667FAC3BD261F90F7C1E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -702,50 +818,9 @@
 			};
 			name = Release;
 		};
-		F6C912269938CD758802C5582CE32258 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF1D5EF71962A4DF9DE4B0BDDABB0CDF /* OCCustomKit.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OCCustomKit/OCCustomKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OCCustomKit/OCCustomKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OCCustomKit/OCCustomKit.modulemap";
-				PRODUCT_MODULE_NAME = OCCustomKit;
-				PRODUCT_NAME = OCCustomKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E276E3FA8E027184BDD377061E34110 /* Build configuration list for PBXNativeTarget "OCCustomKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F6C912269938CD758802C5582CE32258 /* Debug */,
-				6CFFB302DCC29AB3D816321797502AE7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2569BEF95740BAE93C7058611B60E5DF /* Build configuration list for PBXNativeTarget "Pods-OCCustomKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -769,6 +844,15 @@
 			buildConfigurations = (
 				22709A2ACE33631CCA0693C32D0C8FDB /* Debug */,
 				A5EF136B9193FDCA41E7E0A129D8932A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA35BAE857B1D64C7D85B344EA23BC4A /* Build configuration list for PBXNativeTarget "OCCustomKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0063CCECF98C86EFC20089B5DF5AD9 /* Debug */,
+				14C2E8D3050E24538DF3AB8843A152A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
