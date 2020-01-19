@@ -1,0 +1,16 @@
+PODS:
+  - OCCustomKit (0.0.1)
+
+DEPENDENCIES:
+  - OCCustomKit (from `../`)
+
+EXTERNAL SOURCES:
+  OCCustomKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OCCustomKit: e2321760e78183748871e8eb54e16ddf9cd9dc9b
+
+PODFILE CHECKSUM: cd73e282cb45b0a9aff64bcc1dfccb3c3814fc04
+
+COCOAPODS: 1.8.4

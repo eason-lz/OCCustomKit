@@ -1,0 +1,6 @@
+framework module OCCustomKit {
+  umbrella header "OCCustomKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
