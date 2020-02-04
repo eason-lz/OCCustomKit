@@ -1,16 +1,23 @@
 PODS:
-  - OCCustomKit (0.0.1)
+  - MBProgressHUD (1.1.0)
+  - OCCustomKit (0.0.1):
+    - MBProgressHUD
 
 DEPENDENCIES:
   - OCCustomKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MBProgressHUD
 
 EXTERNAL SOURCES:
   OCCustomKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OCCustomKit: e2321760e78183748871e8eb54e16ddf9cd9dc9b
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  OCCustomKit: 676f9d541d831876140e21f4f2aaee472f1ec5d6
 
-PODFILE CHECKSUM: cd73e282cb45b0a9aff64bcc1dfccb3c3814fc04
+PODFILE CHECKSUM: c97a29cdfc38cc88a5bb6e74be6c41352b3b105c
 
 COCOAPODS: 1.8.4

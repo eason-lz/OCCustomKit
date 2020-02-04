@@ -19,5 +19,15 @@
     "ios": "10.0"
   },
   "source_files": "OCCustomKit/Classes/**/*",
-  "frameworks": "UIKit"
+  "resource_bundles": {
+    "OCCustomKit": [
+      "OCCustomKit/Assets/*"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ]
+  }
 }

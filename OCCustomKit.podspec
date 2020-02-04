@@ -32,11 +32,12 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'OCCustomKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'OCCustomKit' => ['OCCustomKit/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'OCCustomKit' => ['OCCustomKit/Assets/*']
+   }
+#    s.resources = ['OCCustomKit/Assets/*']
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'MBProgressHUD'
 end
