@@ -1,6 +1,6 @@
 {
   "name": "OCCustomKit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "OC基础组件库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/eason-lz/OCCustomKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/eason-lz/OCCustomKit.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "10.0"
